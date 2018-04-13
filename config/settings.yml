@@ -1,5 +1,5 @@
 plugins:
-  sale-futbol-libertadores-positions-widget:
+  sale_futbol_libertadores_positions_content:
     type: text
     default: ''
     client: true
