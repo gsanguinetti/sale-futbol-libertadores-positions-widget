@@ -2,7 +2,7 @@
 # about: Include arbitary HTML in a Discourse sidebar with discourse-layouts
 # version: 0.0.1
 # authors: Gaston Sanguinetti
-# url: https://github.com/gsanguinetti/sale-futbol-superliga-positions-widget
+# url: https://github.com/gsanguinetti/sale-futbol-libertadores-positions-widget
 
 after_initialize do
   SiteSetting.class_eval do
