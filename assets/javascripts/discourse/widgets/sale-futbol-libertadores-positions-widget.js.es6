@@ -1,8 +1,12 @@
 import { createWidget } from 'discourse/widgets/widget';
 import { h } from 'virtual-dom';
+import RawHtml from 'discourse/widgets/raw-html';
+import showModal from 'discourse/lib/show-modal';
+import { cook } from 'discourse/lib/text';
 
-createWidget('sale-futbol-libertadores-positions-widget', {
-    tagName: 'div.sale-futbol-libertadores-positions-widget',
+export default createWidget('dl-custom-content', {
+    tagName: 'div.dl-custom-content.widget-container',
+    buildKey: (attrs) => 'dl-custom-content',
 
     html(attrs) {
         return h('div', { innerHTML: Discourse.SiteSettings.sale_futbol_libertadores_positions_content });
