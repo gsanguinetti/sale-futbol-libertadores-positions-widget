@@ -1,4 +1,4 @@
-# name: sale-futbol-superliga-positions-widget
+# name: sale-futbol-libertadores-positions-widget
 # about: Include arbitary HTML in a Discourse sidebar with discourse-layouts
 # version: 0.0.1
 # authors: Gaston Sanguinetti
